@@ -497,7 +497,9 @@ margin-top: -100px;
 padding-top:30px;
 }
 @media only screen and (max-width: 768px) {
-
+.btn-design{
+ margin: auto;
+}
     .background1{
         position: absolute;
         width: 181.52px;
