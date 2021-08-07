@@ -11,9 +11,8 @@ left: 36.19%;
 right: 60%;
 top: 0%;
 bottom: 99.81%;
-Width:45px;
-Height:8px;
-
+width:45px;
+height:8px;
 background: #0B4C61;
 border-radius: 0px 0px 20px 20px;
 }
@@ -47,8 +46,8 @@ color: #333333;
 right: 13.12%;
 top: 0.94%;
 bottom: 98.04%;
-Width:145px;
-Height:42px;
+width:145px;
+height:42px;
 color:white;
 
 background: #FF3A44;
@@ -83,8 +82,8 @@ color: #888888;
 .btn-top{
     top: 11.94%;
     bottom: 86.81%;
-    Width:230px;
-Height:52px;
+    width:230px;
+height:52px;
     background: #FF3A44;
     border-radius: 50px;
     text-align: center;
@@ -98,19 +97,14 @@ color: #FFFFFF;
     width: 181.52px;
     height: 196.04px;
     margin-left: 88%;
-   
     border-radius: 0px;
     z-index: -5;
-
 }
 .background2{
     position: relative;
     width: 181.52px;
     height: 196.04px;
-    /* margin-top: 2%; */
     z-index: -6;
-   
-
 }
 .video{
     position: absolute;
@@ -125,14 +119,11 @@ color: #FFFFFF;
 .second-section{
     background-image: url("background.svg");
     background-repeat: no-repeat;
-    /* height: 900px; */
    color: white;
     background-size: cover;
     margin-top:8%;
-
 }
 .second-section h1{
-
     font-size: 38px;
     padding-top:100px;
     font-weight: 800;
@@ -150,8 +141,6 @@ color: #D8D8D8;
     width: 344px;
     height: 316px;
     margin-left: 865.96px;
-    /* z-index: 5; */
-    /* margin-top: 0px; */
     margin-top: 80px;
   }
   .background4{
@@ -160,10 +149,8 @@ color: #D8D8D8;
     height: 280.61px;
     margin-left: -97px;
     margin-top: -320px;
-    /* z-index: 5; */
   }
   .icon{
-    /* position: absolute; */
    height:60px;
    width: 60px;
     text-align: center;
@@ -174,10 +161,8 @@ color: #D8D8D8;
     color: white;
     border-radius: 10px;
     box-shadow: 0px 5px #6d6272;
-    ;
   }
   .icon1{
-    /* position: absolute; */
    height:60px;
    width: 60px;
     text-align: center;
@@ -188,7 +173,6 @@ color: #D8D8D8;
     color: white;
     border-radius: 10px;
     box-shadow: 0px 5px #6d6272;
-    ;
   }
   .card-group h5{
  
@@ -197,7 +181,7 @@ color: #D8D8D8;
     padding-left: 8px;
     font-style: normal;
     font-size: 22px; 
- line-height: 32px;
+    line-height: 32px;
     text-align: center;
     color: #FFFFFF;
     
@@ -222,8 +206,6 @@ color: #D8D8D8;
     width: 300px;
     height: 390px;
     margin-left: 410px;
-    /* z-index: 10; */
-  
     background: #ffbd2f;
     border-radius: 20px;
   }
@@ -232,8 +214,6 @@ color: #D8D8D8;
     width: 300px;
     height: 390px;
     margin-left: 782px;
-  
-    /* z-index: 10; */
     background: #0489ca;
     border-radius: 20px;
   }
@@ -242,13 +222,10 @@ color: #D8D8D8;
     font-weight: bold;
     font-size: 38px;
     line-height: 48px;
-
-
 text-align: center;
 text-transform: capitalize;
 margin-bottom: 40px;
 top: 1476px;
-
 color: #FFFFFF;
   }
   .section-3 h1{
@@ -269,12 +246,9 @@ color: #FFFFFF;
    }
    /* graph section */
    .graph-section{
-    /* width: 450px;
-    height: 115px; */
     padding:10px;
     padding-bottom:0px;
     margin-bottom: 25px;
-    
     background: #0C5F79;
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.08);
     border-radius: 16px;
@@ -370,7 +344,6 @@ margin-top: -20px;
 }
 /* Help */
 .help{
-  /* padding:10px 20px 10px 20px; */
 padding: 30px;
 background: #0C5F79;
 border-radius: 45px;
@@ -483,10 +456,6 @@ color: #FFFFFF;
 width: 180px;
 height: 180px;
 margin-top: -100px;
-/* left: 1427px; */
-/* top: 3967px; */
-
-/* border: 5px solid #FFBD2F; */
 
 }
 .mini-footer{
@@ -499,6 +468,9 @@ padding-top:30px;
 @media only screen and (max-width: 768px) {
 .btn-design{
  margin: auto;
+}
+.top{
+  display:none;
 }
     .background1{
         position: absolute;
@@ -580,16 +552,15 @@ padding-top:30px;
       width: 80px;
       height: 150px;
       margin-top: -80px;
-      /* left: 1427px; */
-      /* top: 3967px; */
-      
-      /* border: 5px solid #FFBD2F; */
       
       }
 
   }
   
   @media only screen and (max-width: 360px) {
+    .top{
+  display:none;
+}
     .top-bar h1{
     bottom: 91.11%;
     font-style: normal;
